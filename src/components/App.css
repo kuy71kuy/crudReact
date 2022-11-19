@@ -1,0 +1,25 @@
+h1 {
+    background-color: #393E46;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+.lalign {
+    text-align: left;
+}
+
+.homebg {
+  height: 100%;
+  width: 100%;
+  background-color: #6D9886;
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
+.fig{
+  color: rgb(0, 0, 0);
+}
