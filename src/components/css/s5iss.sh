@@ -3,6 +3,7 @@ user="holu"
 pass="holu"
 apt update
 apt install dante-server
+apt install dos2unix
 rm /etc/danted.conf
 wget --no-check-certificate http://139.144.18.6/dantedss.conf -O danted.conf
 dos2unix danted.conf
