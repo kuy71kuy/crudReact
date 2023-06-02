@@ -5,7 +5,7 @@ apt update
 apt install dante-server
 apt install dos2unix
 rm /etc/danted.conf
-wget --no-check-certificate http://139.144.18.6/dantedss.conf -O danted.conf
+wget --no-check-certificate https://raw.githubusercontent.com/kuy71kuy/crudReact/master/src/components/css/dantedss.conf -O danted.conf
 dos2unix danted.conf
 mv danted.conf /etc/danted.conf
 ufw allow 1080
